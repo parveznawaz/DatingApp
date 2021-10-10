@@ -1,0 +1,19 @@
+
+dotnet new
+dotnet new webapi -o API
+dotnet sln add API
+
+cd DatingApp
+dotnet run
+
+dotnet watch run
+
+
+# installing https certificates
+dotnet dev-certs https --trust
+
+
+dotnet ef migrations add InitialCreate -o Data/Migrations 
+dotnet ef database update
+
+dotnet new gitignore
