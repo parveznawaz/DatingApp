@@ -24,3 +24,12 @@ dotnet new gitignore
 
 #installing bootstrap
 ng add ngx-bootstrap
+
+
+
+
+
+
+
+
+ng g c nav --skip-tests
