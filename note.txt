@@ -35,3 +35,4 @@ ng add ngx-bootstrap
 ng g c nav --skip-tests
 ng g guard auth --skip-tests
 ng g m _modules/shared --flat
+ng g interceptor error --skip-tests  
